@@ -31,6 +31,7 @@ public class ArrowResponseCalculations {
         String updatedDepartureDateTime=calculateDateTimeDiff.getCurrentDateTimeByCityAddHours(departureCity,2,"hours");
         String updatedDepartureDateTimeMinutes=calculateDateTimeDiff.getCurrentDateTimeByCityAddHours(departureCity,25,"minutes");
         System.out.println(json);
+        System.out.println(updatedDepartureDateTimeMinutes);
 
         updateJsonObject(json, responsesArray, journeyLegsArray, travelLegsArray, updatedDepartureDateTime,0);
 
