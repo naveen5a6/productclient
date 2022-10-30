@@ -18,6 +18,7 @@ public class CalculateDateTimeDiff {
         /*zoneMap.put("E","America/New_York");
         zoneMap.put("P","America/Los_Angeles");
         zoneMap.put("C","America/Chicago");*/
+        zoneMap.put("P","PST8PDT");
         zoneMap.put("E","EST5EDT");
         return zoneMap;
     }
